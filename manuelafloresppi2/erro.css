@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,500&family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sarala&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+
+*{
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+   
+
+}
+
+
+body{
+    font-size: 100%;
+    background-image: url(fundocardapio.png);
+  
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+
+}
+
+.cabecalhomenufoto {
+    height: 72px;
+}
+
+.cabecalhomenuitem {
+    font-family: 'Concert One', cursive;
+    color: #ffffff ;
+    text-shadow: 2px 2px 10px rgb(214, 214, 214);
+    font-weight: 400;
+    font-size: 20px;
+   
+}
+
+
+.erros {
+    align-items: center;
+    font-family: 'Concert One', cursive;
+    color: red;
+    text-shadow: 2px 2px 10px rgb(214, 214, 214);
+    font-weight: 500;
+
+
+}
+
+.erro1 {
+    align-items: center;
+    margin-left: 30%;
+    margin-top: 15%;
+   
+}
+
+
+.erro2 {
+    
+    align-items: center;
+    margin-left: 30%;
+    margin-top: 5px;
+    
+}

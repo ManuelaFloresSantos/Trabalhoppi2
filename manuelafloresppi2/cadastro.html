@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="cadastro.css" media="screen" />
+
+    <title> Sol e Neve - Cadastro </title>
+
+</head>
+<body>
+    
+    <header class="cabecalho"> 
+        <img class="cabecalhomenufoto" src="logo.png" alt="logo">
+         <nav class="cabecalhomenu">                 
+            <a class="cabecalhomenuitem" href="pageprincipal.html"> Home </a>                                             
+            <a class="cabecalhomenuitem" href="cardapio.html"> Cardápio </a> 
+            <a class="cabecalhomenuitem"  href="promocaonao.html"> Promoções </a>
+          
+            
+        </nav>
+
+    </header>
+
+    <h1 class="tituloprincipal"> Faça seu cadastro: </h1>
+
+
+
+                   <!-- FORMULARIO  -->
+
+
+
+    <form class="formulario" name="form" method="post" action="cadastro.php">  
+
+        <section class="bodyform"> 
+       
+        <fieldset class="formulario"> 
+    <div> 
+        <label> <strong> Seu nome: </strong></label>
+        <input type="text" name="nome" id="name" required>
+
+    </div> <br>
+
+    <div> 
+        <label> <strong>  Informe seu email: </strong> </label>
+        <input type="email" name="email" id="email" required> 
+    </div> <br>
+
+    <div>
+        <label> <strong> Seu refresco favorito do <a href="cardapio.html"> nosso Cardapio</a>?</strong> </label>  <br> <br>
+           <label> <input type="radio" name="favorito" value="gelato"/> Gelato <br /> </label> 
+            <label>  <input type="radio" name="favorito" value="casquinha"/> Casquinha <br /> </label>
+            <label>  <input type="radio" name="favorito" value="milkshake"/> Milkshake <br /> </label>
+            <label> <input type="radio" name="favorito" value="gelato e casquinha"/> Gelato e Casquinha <br /> </label> 
+            <label>  <input type="radio" name="favorito" value="gelato e milkshake"/> Gelato e Milkshake <br /> </label>
+            <label>  <input type="radio" name="favorito" value="casquinha e milkshake"/> Casquinha e Milkshake <br /> </label>
+            <label>  <input type="radio" name="favorito" value="todos"/> Todos! <br /> </label>
+
+    </div> <br>
+
+    <div>
+       <strong>  Data de aniversário (para receber brindes!): </strong> <input type="date" name="aniver" required>
+    </div> <br>
+
+
+    <div>
+
+        <label> <strong>  Sua cidade: </strong> </label>
+        <select name="select">
+            <option value="poa">Porto Alegre</option>
+            <option value="gravatai"> Gravataí </option>
+            <option value="canoas"> Canoas </option>
+            <option value="cachoeirinha"> Cachoeirinha </option>
+            <option value="alvorada"> Alvorada  </option>
+          </select>
+          
+    </div> <br>
+
+    <div> 
+        <label> <strong> Marque essa caixinha se deseja receber nossas promoções por email: </strong> </label><br> 
+        <input type="checkbox" id="aceito" name="aceito" value="aceito" required> 
+        <label for="aceito"> Aceito! </label> 
+    
+       
+    </div> <br>
+
+    <div class="campo"> 
+    
+        <label>  <strong> Se necessário, escreva aqui uma observação: </strong> </label> <br>
+        <textarea row="5" style="width: 10em" id="observacao" name="observacao"> </textarea>  
+    </div>
+    
+       
+
+        <button type="submit" class="botao">Enviar</button>
+
+      
+    </fieldset>
+</section>
+
+
+    </form>
+    
+  
+
+
+
+
+
+</body>
+</html>

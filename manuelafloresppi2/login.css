@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,500&family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sarala&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+
+
+
+
+*{
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+   
+
+}
+
+body{
+    font-size: 100%;
+    background-image: url(fundocardapio.png);
+  
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+
+}
+
+.cabecalhomenufoto {
+    height: 72px;
+}
+
+.cabecalhomenuitem {
+    font-family: 'Concert One', cursive;
+    color: #ffffff ;
+    text-shadow: 2px 2px 10px rgb(214, 214, 214);
+    font-weight: 400;
+    font-size: 20px;
+   
+}
+
+.inputgroup {
+    position: relative;
+
+}
+
+.input {
+    padding: 10px;
+    margin-top: 5%;
+    margin-left: 40%;
+    border: none;
+    border-radius: 4px;
+    font: inherit;
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+    outline: 2px solid rgb(242, 98, 255);
+}
+
+.input1 {
+    padding: 10px;
+    margin-top: 3%;
+    margin-left: 40%;
+    border: none;
+    border-radius: 4px;
+    font: inherit;
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+    outline: 2px solid rgb(242, 98, 255);
+}
+
+.titulos {
+    font-family: 'Concert One', cursive;
+    font-weight:  250;
+    font-size: 30px;
+    text-shadow: 1px 1px 5px rgb(255, 76, 186);
+    color: #ffffff;
+
+}
+
+.tituloprincipal {
+    font-family: 'Concert One', cursive;
+    font-weight: 400;
+    font-size: 50px;
+    color: rgb(242, 98, 255);
+    text-shadow: 2px 2px 10px rgb(190, 190, 190);
+    margin-left: 37%;
+    margin-top: 9%;
+
+}
+
+
+.botao {
+    font-family: 'Sarala', sans-serif;
+    background: #FF78CC;
+    border: 0;
+    color: white;
+    padding: 0.2em 0.6em;
+    width: 110px;
+    height: 40px;
+    box-shadow: 2px 2px 2px rgb(78, 78, 78);
+    text-shadow: 1px 1px 1px rgb(78, 78, 78);
+    border-radius: 20px;
+    margin-left: 44%;
+    margin-top: 3%;
+
+}
+
+.botao:hover {
+    background: rgb(255, 208, 53);
+    box-shadow: inset 2px 2px 2px rgb(44, 44, 44);
+    text-shadow: none;
+}
